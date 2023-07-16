@@ -7,8 +7,8 @@ Pydub, numpy, whisper, torch, torchaudio
 
 Usage:
 Place in the same folder as the script:
-- your_subtitle.srt, which existing subtitle in any language, but correctly synchronized with the audio, from which the script will get the time codes
-- audio.wav, which is the audio track in the new language you want the output subtitle to be in (The script might already work with video though or can be easily updated to do so anyway if you need that)
+- your_subtitle.srt // an existing subtitle in any language, but correctly synchronized with the audio, from which the script will get the time codes
+- audio.wav // the audio track in the new language you want the output subtitle to be in (The script might already work with video though or can be easily updated to do so anyway if you need that)
 - change the language code to the one of your audio file in the line: "transcribe = model.transcribe(audio=audio_fp32, language='fr')"
 If all goes well, you will get an updated_subtitle.srt in the same folder which contains the new subtitle for the language of your audio file, using the time codes in the input srt file.
 
