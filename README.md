@@ -12,7 +12,7 @@ Place in the same folder as the script:
 - change the language code to the one of your audio file in the line: "transcribe = model.transcribe(audio=audio_fp32, language='fr')"
 If all goes well, you will get an updated_subtitle.srt in the same folder which contains the new subtitle for the language of your audio file, using the time codes in the input srt file.
 
-I might do a command line for it and add some pre-processing on the srt to make it work better if there's interest (eg, merging of continuation line will help a ton and doing that first is recommended)
+I might do a command line for it and add some pre-processing on the srt to make it work better if there's interest (eg, merging of continuation lines will help a ton and doing that first is recommended)
 
 
 
